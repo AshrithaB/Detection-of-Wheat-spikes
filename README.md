@@ -1,5 +1,7 @@
 # Detection of Wheat Spikes
 
+<img width="1440" alt="Home Page" src="https://github.com/AshrithaB/Detection-of-Wheat-spikes/blob/main/screenshots/homepage.png?raw=true"> 
+
 If you like this, please leave a ⭐! Thank you!
 
 ## Overview
@@ -27,4 +29,6 @@ We welcome contributions from the community to enhance this project. Feel free t
 
 ## License
 This project is licensed under the MIT License, allowing you to modify, use, and distribute the software as needed.
+
+<img width="1440" alt="Home Page" src="https://github.com/AshrithaB/Detection-of-Wheat-spikes/blob/main/screenshots/implementation%20-%20pre%20processing.png?raw=true"> 
 
