@@ -1,0 +1,60 @@
+
+.container{
+   position: absolute;
+   top: 13%; 
+   left: 4%;
+   right: 5%;
+   width: 76rem;
+   height: 36rem;
+}
+.main_view{
+    width: 76rem;
+    height: 31rem;
+}
+.main_view img{
+  width:10rem;
+  height: 10rem; 
+  object-fit: cover;   
+}
+.side_view{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.side_view h4{
+    width: 18rem;
+    height: 3rem;
+    object-fit: cover;
+    cursor: pointer;
+    margin:0.5rem;
+    background-color: #1ABC9C;
+    border-radius: 5px 5px 5px 5px;
+}
+.myImg{
+   position: absolute;
+   top: 0%; 
+   left: 0%;
+   right: 0%;
+   width: 76rem;
+   height: 31rem;
+   display:none;
+   border-radius: 5px 5px 5px 5px;
+}
+.side_view a {
+  font-size: 20px;
+  display: block;
+  color: #0B5345;
+  text-align: center;
+  text-decoration: none;
+  padding: 12px 0px 0px 0px;
+  border-radius: 5px 5px 5px 5px;
+}
+.side_view a:hover{
+  font-size: 20px;
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  padding: 12px 0px 0px 0px;
+  border-radius: 5px 5px 5px 5px;
+}

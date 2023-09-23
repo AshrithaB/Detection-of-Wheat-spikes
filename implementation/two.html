@@ -1,0 +1,80 @@
+<!DOCTYPE>
+<html>
+<head>
+
+  <title>Implementation</title>
+    <link rel="stylesheet" type="text/css" href="../css/menu.css">
+    <link rel="stylesheet" type="text/css" href="implementation.css">
+
+<style>
+body {
+  background-color:#808B96 ;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: initial;
+  background-attachment: fixed;
+}
+.inside{
+  position: absolute;
+   top: 18%; 
+   left: 40%;
+   right: 5%;
+   width: 43rem;
+   height: 24rem;
+  object-fit: cover; 
+}
+.inside img{
+  width:180px; height: 190px;
+}
+.arrow{
+  position: absolute;
+  top: 45%; 
+  left: 30%;
+  width: 7rem;
+  height: 5rem;
+}
+.arrow img{
+  width: 7rem;
+  height: 5rem;
+}
+</style>
+</head>
+
+<body> 
+ 
+ <ul class = "menu">
+  <li><a href="../INDEX.html">Home</a></li>
+  <li><a href="../about/about.html">About</a></li>
+  <li><a href="one.html">Implementation</a></li>
+  <li><a href="../results/results.html">Results</a></li>
+ </ul>
+
+<div class="container">
+    <div class="main_view" style = "background-color:#fafafa;border-radius: 5px 5px 5px 5px;">
+      <p style="text-align: center; padding-top: 2rem; font-size: 20px;"><b>AUGUMENTED IMAGES</b></p>
+      <img src="../pictures/Original.png" alt="IMAGE" style="padding:3rem 1rem 1rem 3rem;width:290px; height: 310px;">
+      <div class="arrow"><img src="../pictures/arrow.png" alt="IMAGE"></div>
+      <div class="inside" style = "background-color:white;">
+        <img src="../pictures/RandomCrop.png" alt="IMAGE" style="padding:0rem 0rem 0rem 3rem;">
+        <img src="../pictures/HorizontalFlip.png" alt="IMAGE" style="padding:0rem 2rem 0rem 2rem;">
+        <img src="../pictures/mixup.png" alt="IMAGE" style="padding:0rem 0rem 0rem 0rem;">
+        <img src="../pictures/mosaic.png" alt="IMAGE" style="padding:1rem 5rem 1rem 10.5rem;">
+        <img src="../pictures/cutout.png" alt="IMAGE" style="padding:1rem 0rem 1rem 0rem;">
+      </div>
+    </div>
+
+    <div class="side_view">
+        <h4 class="item"><a href="one.html"><b>Data acquisition</b></a></h4>
+        <h4 class="item" style="background-color: #AED6F1  ;"><a href="two.html"><b>Pre-processing</b></a></h4>
+        <h4 class="item"><a href="four.html"><b>Post-processing</b></a></h4>
+    </div>
+</div>
+
+</body>
+
+</html>
+
+
+
